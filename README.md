@@ -1,13 +1,14 @@
-# Berkeley Humanoid Traning Code
+# Skyentific BipedalRobotSim
 
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
 [![Isaac Lab](https://img.shields.io/badge/IsaacLab-2.0.0-silver)](https://isaac-sim.github.io/IsaacLab)
 [![Python](https://img.shields.io/badge/python-3.13-blue.svg)](https://docs.python.org/3/whatsnew/3.13.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
+[![Windows platform](https://img.shields.io/badge/platform-windows-orange.svg)](https://www.microsoft.com/en-ca/windows/windows-11)
 
 ## Overview
 
-This repository is a fork of the [isaac_berkeley_humanoid](https://github.com/HybridRobotics/isaac_berkeley_humanoid) repository and integrates code for the [Skyentific BipedalRobotSim](https://github.com/SkyentificGit/BipedalRobotSim) project featured on [Skyentific's Youtube channel](https://www.youtube.com/watch?v=xwOaStX0mxE)
+This repository is a fork of the [isaac_berkeley_humanoid](https://github.com/HybridRobotics/isaac_berkeley_humanoid) repository. The repository integrates code for the [Skyentific BipedalRobotSim](https://github.com/SkyentificGit/BipedalRobotSim) project featured on [Skyentific's Youtube channel](https://www.youtube.com/watch?v=xwOaStX0mxE)
 
 The repository includes a policy model from an approximately 12-hour training run.
 
