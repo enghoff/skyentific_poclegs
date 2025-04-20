@@ -1,0 +1,82 @@
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   scripts/tutorials/00_sim/create_empty.py
+	modified:   scripts/tutorials/01_assets/run_articulation.py
+	modified:   scripts/tutorials/03_envs/run_cartpole_rl_env.py
+	modified:   scripts/tutorials/05_controllers/run_diff_ik.py
+	modified:   scripts/tutorials/05_controllers/run_osc.py
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/scripts/tutorials/00_sim/create_empty.py b/scripts/tutorials/00_sim/create_empty.py
+index 31c03115d..e696e3e57 100644
+--- a/scripts/tutorials/00_sim/create_empty.py
++++ b/scripts/tutorials/00_sim/create_empty.py
+@@ -8,7 +8,7 @@
+ .. code-block:: bash
+ 
+     # Usage
+-    ./isaaclab.sh -p scripts/tutorials/00_sim/create_empty.py
++    ./isaaclab.bat -p scripts/tutorials/00_sim/create_empty.py
+ 
+ """
+ 
+diff --git a/scripts/tutorials/01_assets/run_articulation.py b/scripts/tutorials/01_assets/run_articulation.py
+index 6cace5f09..1b3bb3876 100644
+--- a/scripts/tutorials/01_assets/run_articulation.py
++++ b/scripts/tutorials/01_assets/run_articulation.py
+@@ -8,7 +8,7 @@
+ .. code-block:: bash
+ 
+     # Usage
+-    ./isaaclab.sh -p scripts/tutorials/01_assets/run_articulation.py
++    ./isaaclab.bat -p scripts/tutorials/01_assets/run_articulation.py
+ 
+ """
+ 
+diff --git a/scripts/tutorials/03_envs/run_cartpole_rl_env.py b/scripts/tutorials/03_envs/run_cartpole_rl_env.py
+index 88e66afa0..cad0a9a7c 100644
+--- a/scripts/tutorials/03_envs/run_cartpole_rl_env.py
++++ b/scripts/tutorials/03_envs/run_cartpole_rl_env.py
+@@ -8,7 +8,7 @@ This script demonstrates how to run the RL environment for the cartpole balancin
+ 
+ .. code-block:: bash
+ 
+-    ./isaaclab.sh -p scripts/tutorials/03_envs/run_cartpole_rl_env.py --num_envs 32
++    ./isaaclab.bat -p scripts/tutorials/03_envs/run_cartpole_rl_env.py --num_envs 32
+ 
+ """
+ 
+diff --git a/scripts/tutorials/05_controllers/run_diff_ik.py b/scripts/tutorials/05_controllers/run_diff_ik.py
+index 2c1da4d9f..502df0ac5 100644
+--- a/scripts/tutorials/05_controllers/run_diff_ik.py
++++ b/scripts/tutorials/05_controllers/run_diff_ik.py
+@@ -12,7 +12,7 @@ PhysX. This helps perform parallelized computation of the inverse kinematics.
+ .. code-block:: bash
+ 
+     # Usage
+-    ./isaaclab.sh -p scripts/tutorials/05_controllers/run_diff_ik.py
++    ./isaaclab.bat -p scripts/tutorials/05_controllers/run_diff_ik.py
+ 
+ """
+ 
+diff --git a/scripts/tutorials/05_controllers/run_osc.py b/scripts/tutorials/05_controllers/run_osc.py
+index fada46209..b089144f6 100644
+--- a/scripts/tutorials/05_controllers/run_osc.py
++++ b/scripts/tutorials/05_controllers/run_osc.py
+@@ -12,7 +12,7 @@ mass matricescomputed by PhysX.
+ .. code-block:: bash
+ 
+     # Usage
+-    ./isaaclab.sh -p scripts/tutorials/05_controllers/run_osc.py
++    ./isaaclab.bat -p scripts/tutorials/05_controllers/run_osc.py
+ 
+ """
+ 
