@@ -1,0 +1,36 @@
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/exported/policy.pt
+	modified:   logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/model_800.pt
+	modified:   skyentific_poclegs/assets/robots/configuration/poclegs_base.usd
+	modified:   skyentific_poclegs/assets/robots/configuration/poclegs_physics.usd
+	modified:   skyentific_poclegs/assets/robots/configuration/poclegs_sensor.usd
+	modified:   skyentific_poclegs/assets/robots/poclegs.usd
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/exported/policy.pt b/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/exported/policy.pt
+index 2f8a112..0fe431a 100644
+Binary files a/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/exported/policy.pt and b/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/exported/policy.pt differ
+diff --git a/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/model_800.pt b/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/model_800.pt
+index 86d3243..7216f82 100644
+Binary files a/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/model_800.pt and b/logs/rsl_rl/skyentific_poclegs_rough/2025-04-19_20-55-59/model_800.pt differ
+diff --git a/skyentific_poclegs/assets/robots/configuration/poclegs_base.usd b/skyentific_poclegs/assets/robots/configuration/poclegs_base.usd
+index 326127f..d90719c 100644
+Binary files a/skyentific_poclegs/assets/robots/configuration/poclegs_base.usd and b/skyentific_poclegs/assets/robots/configuration/poclegs_base.usd differ
+diff --git a/skyentific_poclegs/assets/robots/configuration/poclegs_physics.usd b/skyentific_poclegs/assets/robots/configuration/poclegs_physics.usd
+index 5e35938..b2c4b3d 100644
+Binary files a/skyentific_poclegs/assets/robots/configuration/poclegs_physics.usd and b/skyentific_poclegs/assets/robots/configuration/poclegs_physics.usd differ
+diff --git a/skyentific_poclegs/assets/robots/configuration/poclegs_sensor.usd b/skyentific_poclegs/assets/robots/configuration/poclegs_sensor.usd
+index 4f4353b..fc2959f 100644
+Binary files a/skyentific_poclegs/assets/robots/configuration/poclegs_sensor.usd and b/skyentific_poclegs/assets/robots/configuration/poclegs_sensor.usd differ
+diff --git a/skyentific_poclegs/assets/robots/poclegs.usd b/skyentific_poclegs/assets/robots/poclegs.usd
+index a71f435..c777896 100644
+Binary files a/skyentific_poclegs/assets/robots/poclegs.usd and b/skyentific_poclegs/assets/robots/poclegs.usd differ

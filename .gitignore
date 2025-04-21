@@ -1,6 +1,4 @@
 **/__pycache__/
 *.egg-info
-logs/
-outputs/
 _orbit*
 wandb/

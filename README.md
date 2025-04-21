@@ -10,7 +10,7 @@
 
 This repository is a fork of the [isaac_berkeley_humanoid](https://github.com/HybridRobotics/isaac_berkeley_humanoid) repository. The repository integrates code for the [Skyentific BipedalRobotSim](https://github.com/SkyentificGit/BipedalRobotSim) project featured on [Skyentific's Youtube channel](https://www.youtube.com/watch?v=xwOaStX0mxE)
 
-The repository includes a policy model from an approximately 12-hour training run.
+The repository includes a policy model from an approximately 24-hour training run.
 
 ### Installation
 
